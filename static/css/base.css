@@ -2,12 +2,53 @@ html {
     height: 100%;
 }
 
+body {
+    font-family: Quicksand, sans-serif;
+    background-color: #f5f0e3d5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Montserrat, sans-serif;
+}
+
+.logo {
+    color: #63BFB5;
+    font-size: 45px;
+}
+
+.navbar {
+    border-bottom: 1px black solid;
+}
+
 .img {
 	background: url('media/carousel1.jpeg') no-repeat fixed; 
 	background-size: cover;
     height: calc(100vh - 164px);
 }
 
-.green {
-    color: green;
+.title-home {
+    margin-top: 20%;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 24px;
+    letter-spacing: 2px;
+    font-weight: 800;
+}
+
+.text-intro {
+    margin-top:20px;
+    text-align: center;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.btn {
+    border: solid black 1px;
+    background-color: #63BFB5;
+    margin: 0;
 }
