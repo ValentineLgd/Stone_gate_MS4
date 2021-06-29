@@ -8,6 +8,6 @@ html {
     height: calc(100vh - 164px);
 }
 
-h1 {
+.green {
     color: green;
 }
