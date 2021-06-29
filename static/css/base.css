@@ -4,7 +4,7 @@ html {
 
 body {
     font-family: Quicksand, sans-serif;
-    background-color: #f5f0e3d5;
+    background-color: #ffff;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -12,12 +12,30 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .logo {
-    color: #63BFB5;
-    font-size: 45px;
+    color: black;
+    font-size: 35px;
+    letter-spacing: 2px;
 }
 
 .navbar {
-    border-bottom: 1px black solid;
+    background-color : #eeebe3;
+}
+
+.fa-gem {
+    color: #63BFB5;
+}
+
+.list-inline-item a {
+    color: black;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-top:10px;
+}
+
+.list-inline-item a:hover {
+    border-bottom: 2px solid #63BFB5;
+    border-right: 2px solid #63BFB5;
+    border-left: 2px solid #63BFB5;
 }
 
 .img {
@@ -27,7 +45,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .title-home {
-    margin-top: 20%;
+    margin-top: 25%;
     text-align: center;
     text-transform: uppercase;
     font-size: 24px;
@@ -36,7 +54,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .text-intro {
-    margin-top:20px;
+    margin-top:7%;
     text-align: center;
 }
 
@@ -44,11 +62,15 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50px;
+    height: 80px;
 }
 
 .btn {
     border: solid black 1px;
-    background-color: #63BFB5;
+    background-color: #eeebe3;
     margin: 0;
+}
+
+.btn:hover {
+    background-color: #63BFB5;
 }
